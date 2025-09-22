@@ -16,5 +16,5 @@ function sortearAmigo() {
     //const randoom
     const random = Math.floor(Math.random() * listaAmigos.length);
     const amigoSecreto = listaAmigos[random];
-    ulResultado.textContent = `<li>Tu amigo secreto es: ${amigoSecreto}</li>`;
+    ulResultado.textContent = `Tu amigo secreto es: ${amigoSecreto}`;
 }
